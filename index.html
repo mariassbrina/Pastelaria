@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Ki Delícia</title>
+  <link rel="stylesheet" href="imgkidelicia.css">
+</head>
+
+<body>
+  <header class="content">
+    <div class="logo"></div>
+    <nav>
+      <ul class="list-menu">
+
+        <li><a href="#home">Página inicial</a></li>
+        <li><a href="#sobrenos">Sobre nós</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#local">Localização</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home" class="first-section">
+
+    <div class="conteudo-principal">
+      <div class="logo-frase">
+        <img class="logo" src="/projeto 4/img/logo.png" alt="" width="300px">
+        <h1>Deixe seu dia mais saboroso!</h1>
+      </div>
+      <h2>O melhor pastel da cidade</h2>
+    </div>
+
+    <div class=" btn">
+      <a href="https://api.whatsapp.com/send/?phone=5561986536920&text=Ol%C3%A1%2C+desejo+fazer+um+pedido.&type=phone_number&app_absent=0" target="_blank"><button class="pecaja">Peça já!</button></a>
+    </div>
+  </section>
+  <section class="sobre-nos" id="sobrenos">
+    <div class="main">
+      <div class="contentsobre">
+        <h2>Sobre nós</h2>
+        <p>A Ki Delícia Pastelaria foi fundada em 1997 como Lanchonete Ki Delícia, com o objetivo de oferecer uma ampla variedade de lanches aos clientes. Apesar dos desafios iniciais, como a falta de infraestrutura na cidade, a empresa resistiu e perseverou ao longo dos anos. Em 2010, decidimos abrir uma pastelaria, oferecendo pastéis frescos e outros produtos, o que levou à mudança do nome para Pastelaria Bom Sabor. Com sucesso crescente, em 2018, a empresa passou por uma reforma, ampliando suas instalações e oferecendo mais de 40 opções de pastéis. Atualmente, a Ki Delícia Pastelaria é reconhecida como a melhor pastelaria da cidade.</p>
+        <br>
+        <div>
+          <ul class="avaliacao">
+            <li class="star-icon ativo" data-avaliacao="1"></li>
+            <li class="star-icon" data-avaliacao="2"></li>
+            <li class="star-icon" data-avaliacao="3"></li>
+            <li class="star-icon" data-avaliacao="4"></li>
+            <li class="star-icon" data-avaliacao="5"></li>
+          </ul>
+        </div>
+        <script src="script.js"></script>
+      </div>
+      <div>
+        <img class="img-kidelicia" src="img/kidelicia.jpg" alt="" id="jay">
+      </div>
+    </div>
+  </section>
+
+  <section class="cardapio" id="cardapio">
+    <h2>Cardápio</h2>
+    <div class="main2">
+      <div class="conteiner2">
+        <div class="slider">
+          <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <div class="first">
+              <img src="/projeto 4/img/pastel.jpeg" alt="Pastel" width="400px" height="400px">
+            </div>
+            <div class="slide">
+              <img src="/projeto 4/img/caldo.jpeg" alt="Caldo de cana" width="400px" height="400px">
+            </div>
+            <div class="slide">
+              <img src="/projeto 4/img/acai.jpeg" alt="Açaí" width="400px" height="400px">
+            </div>
+
+            <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+            </div>
+          </div>
+
+
+          <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+          </div>
+        </div>
+      </div>
+      <div class="parte2">
+        <p>No nosso cardápio, você encontrará uma variedade de mais de 50 opções de pastéis deliciosos. Desde os clássicos, como carne com queijo e frango com catupiry, até os mais exóticos, como carne seca, carne de costela, camarão e até mesmo banana com canela. Além disso, oferecemos refrescante caldo de cana, servido bem gelado e no tamanho que você preferir. E para os amantes de açaí, temos diversas opções de complementos disponíveis. Não deixe de conferir o nosso cardápio completo aqui: </p>
+        <br>
+        <button class="btn2"><a href="https://drive.google.com/file/d/1FLhZle1vhqKGT7l8mQOBHC6rZIYAXCJN/view" target="_blank">Cardápio</a></button>
+      </div>
+    </div>
+
+
+  </section>
+  <section class="localizacao" id="local">
+    <br>
+    <br>
+    <h2>Localização</h2>
+    <h3>Venha nos conhecer!</h3>
+    <br>
+    <div class="mapBox">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.0889960898844!2d-48.06780298255615!3d-15.904407799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2d6e480fb40d%3A0x67f025a895984c1d!2sKi%20Del%C3%ADcia%20Pastelaria!5e0!3m2!1spt-BR!2sbr!4v1687546680330!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <script src="script.js"></script>
+
+</body>
+<footer class="rodape">
+  <a href="http://127.0.0.1:5500/projeto%204/index.html#home"> <img src="/projeto 4/img/logo.png" width="300px" alt=""></a>
+  <p class="frase-final">Direitos reservados, Ki Delicia Pastelaria.
+  </p>
+  <div class="cotatos">
+    <a target="_blank" href="https://www.ifood.com.br/delivery/brasilia-df/pastelaria-ki-delicia-recanto-das-emas/401a6a40-6d96-435d-aa80-2f369bbeffb4?utm_medium=share">
+      <img src="/projeto 4/img/icons8-ifood-48.png" width="50px" alt="">
+    </a>
+    <a target="_blank" href="https://www.instagram.com/kidelicia.bsb/">
+      <img src="/projeto 4/img/icons8-instagram-48.png" alt="">
+    </a>
+    <a target="_blank" href="https://api.whatsapp.com/send/?phone=5561986536920&text=Ol%C3%A1%2C+desejo+fazer+um+pedido.&type=phone_number&app_absent=0">
+      <img src="/projeto 4/img/icons8-whatsapp-48.png" alt="">
+    </a>
+  </div>
+
+</footer>
+
+</html>
